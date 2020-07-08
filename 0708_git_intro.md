@@ -12,9 +12,9 @@
    2. `git config --global user.email "email@gmail.com"`
 
    3. 리보의 상태보기 `$ git status`
-   4. `$ git add`
-   5. 스냅샷 찍기 `$ git commit`
-   6. 로그보기 `$ git log`
+   4. stage에 올린다`$ git add` (초록색은 사진 찍을 준비가 끝난 것/ stage에 올라온 상태)
+   5. snapshot (스테이지를 사진) 찍기 `$ git commit`
+   6. 로그(사진첩)보기 `$ git log`
    7. ​	
 
    
