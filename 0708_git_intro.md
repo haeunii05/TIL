@@ -8,9 +8,16 @@
 
 2. 서명 설정 
 
-   1. `$ git config --global user.name "name"
-   2. `git config --global user.email "email@gmail.com"
-   3. 
+   1. `$ git config --global user.name "name"`
+   2. `git config --global user.email "email@gmail.com"`
+
+   3. 리보의 상태보기 `$ git status`
+   4. `$ git add`
+   5. 스냅샷 찍기 `$ git commit`
+   6. 로그보기 `$ git log`
+   7. ​	
+
+   
 
    
 
