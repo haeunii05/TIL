@@ -2,13 +2,15 @@
 
 ## local git
 
-1. 초기화 `$ git init'
+1. git 다운로드 밑 설치
+
+2. 초기화 `$ git init'
 
    1.  실제로는 폴더에 .git/폴더가 생성됨
    2.  버전 관리가 시작됨
    3. repo(repository)라고 부름
 
-2. 서명 설정 
+3. 서명 설정 
 
    1. `$ git config --global user.name "name"`
    2. `git config --global user.email "email@gmail.com"`
@@ -25,6 +27,16 @@
    6. 로그(사진첩)보기 `$ git log`
 
       
+
+   ### 집 컴퓨터 세팅
+
+   1. git 다운로드 및 설치
+   2. windows 키 누루고 git bash 실행(집의 홈 폴더로 시작)
+   3. `$ git config --global ...`해야 함
+   4. `$ git clone <URL>`
+   5.  add commit 저장 우클릭 bash here
+   6. `$git commit -m '집setting 추가'`
+   7. `$ git push`
 
    ## github
 
