@@ -1,5 +1,7 @@
 # git intro
 
+## local git
+
 1. 초기화 `$ git init'
 
    1.  실제로는 폴더에 .git/폴더가 생성됨
@@ -12,16 +14,29 @@
    2. `git config --global user.email "email@gmail.com"`
 
    3. 리보의 상태보기 `$ git status`
+
    4. stage에 올린다`$ git add` (초록색은 사진 찍을 준비가 끝난 것/ stage에 올라온 상태)
+
+      1. 특정 파일만 올리기 `$ git add <filename>`
+      2. 그냥 다 올리기 `$ git add .`
+
    5. snapshot (스테이지를 사진) 찍기 `$ git commit`
+
    6. 로그(사진첩)보기 `$ git log`
-   7. ​	
 
-   
+      
 
-   
+   ## github
 
-   
+   1. 원격저장소(remote repository)
+
+   2. local repo => remote repo 연결하기`$ git remote add origin <URL>`
+
+   3. local 커밋을 remote 로 보내기 `$ git push origin master`
+
+   4. `$ git push == $ git push origin master`로 단축 명령하기
+
+       `$ git push -u origin master`해주면 된다
 
    
 
